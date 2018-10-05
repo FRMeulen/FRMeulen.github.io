@@ -7,9 +7,9 @@
 }
 
 /* 
-Nom du thème : Simple Vitae (ou Simple Curriculum ou Simple Resume)
-Description : Votre curriculum vitae sur Internet, un moyen supplémentaire de vous faire connaitre. Ce thème correspond à tous les types de métiers.
-Créateur : Christophe HERMANN (@chrishrmnn)
+Theme name : Simple Vitae / Simple Curriculum / Simple Resume
+Description : Your resume on the internet, an extra way to make yourself known. The theme fits any type of use;
+Creator : Christophe HERMANN (@chrishrmnn)
 */
 
 /**********
@@ -43,14 +43,14 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 	}
 
 /***************
-/* Corps - Main
+/* Body - Main
 ***************/
 	section[role=main] {
 		padding: 21px 0;
 		overflow: hidden;
 	}
 	
-	.aboutme, .skills, .experience, .education, .hobbies, .contact {
+	.aboutme, .languages, .skills, .experience, .education, .hobbies, .contact {
 		margin-top: 63px;
 	}
 	
@@ -85,6 +85,10 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 		font-weight: normal;
 	}
 	
+	.aboutme {
+		margin-bottom: 63px;
+	}
+
 	.experience li, .education li {
 		margin-bottom: 63px;
 	}
@@ -93,6 +97,44 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 		margin-bottom: 21px;
 	}
 	
+	.languages .tags li {
+		background-color:#33a4c9;
+		border:1px solid #1b91b7;
+		border-radius: 15px;
+		color:#fff;
+		display: inline-block;
+		line-height: 13px;
+		margin: 0 7px 17px 0;
+		padding: 5px 10px;
+	}
+	
+	.languages .bars li {
+		margin-bottom: 21px;
+		position: relative;
+	}
+	
+	.languages .bars li:after {
+		background: #e1e1e1;
+		bottom: -4px;
+		content: ' ';
+		display: block;
+		height: 5px;
+		position: absolute;
+		width:100%;
+	}
+	
+	.languages .bars li span {
+		background: #33a4c9;
+		bottom: -4px;
+		content: ' ';
+		display: block;
+		height: 5px;
+		left: 0;
+		position: absolute;
+		width: inherit;
+		z-index: 1;
+	}
+
 	.skills .tags li {
 		background-color:#33a4c9;
 		border:1px solid #1b91b7;
