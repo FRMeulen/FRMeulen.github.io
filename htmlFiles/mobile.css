@@ -178,12 +178,12 @@ Creator : Christophe HERMANN (@chrishrmnn)
 		margin: 0 10px 1px 0;
 	}
 	
-	.place, .description {
+	.place {
 		background-position: 0 -2px;
 		color: #999;
 	}
 	
-	.dates {
+	.dates, .descriptions {
 		background-position: 0 -22px;
 		color: #999;
 	}
