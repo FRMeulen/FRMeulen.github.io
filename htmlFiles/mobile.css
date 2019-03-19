@@ -182,8 +182,12 @@ Creator : Christophe HERMANN (@chrishrmnn)
 		background-position: 0 -2px;
 		color: #999;
 	}
-	
-	.dates, .descriptions {
+
+	.description {
+		color: #777;
+	}
+
+	.dates {
 		background-position: 0 -22px;
 		color: #999;
 	}
