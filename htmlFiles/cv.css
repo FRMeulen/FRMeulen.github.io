@@ -137,7 +137,7 @@
 		margin-bottom: 63px;
 	}
 	
-	.experience ul, .education ul, .projects ul {
+	.experience ul, .education ul, .projects ul, .certificates ul {
 		margin-left: 60px;
 	}
 	
@@ -150,15 +150,15 @@
 		font-weight: normal;
 	}
 	
-	.experience li, .education li, .projects li {
+	.experience li, .education li, .projects li, .certificates li {
 		margin-bottom: 63px;
 	}
 	
-	.experience li:last-child, .education li:last-child, .projects li:last-child {
+	.experience li:last-child, .education li:last-child, .projects li:last-child, .certificates li:last-child {
 		margin-bottom: 21px;
 	}
 	
-	.experience li p, .education li p, .projects li p {
+	.experience li p, .education li p, .projects li p, .certificates p {
 		margin-left: 30px;
 	}
 	

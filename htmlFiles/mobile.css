@@ -50,7 +50,7 @@ Creator : Christophe HERMANN (@chrishrmnn)
 		overflow: hidden;
 	}
 	
-	.aboutme, .languages, .skills, .experience, .projects, .education, .hobbies, .contact {
+	.aboutme, .languages, .skills, .experience, .projects, .education, .hobbies, .contact, .certificates {
 		margin-top: 63px;
 	}
 	
@@ -89,11 +89,11 @@ Creator : Christophe HERMANN (@chrishrmnn)
 		margin-bottom: 63px;
 	}
 
-	.experience li, .education li, .projects li {
+	.experience li, .education li, .projects li, .certificates li {
 		margin-bottom: 63px;
 	}
 	
-	.experience li:last-child, .education li:last-child, .projects li:last-child {
+	.experience li:last-child, .education li:last-child, .projects li:last-child, .certificates li:last-child {
 		margin-bottom: 21px;
 	}
 	
