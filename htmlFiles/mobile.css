@@ -89,10 +89,14 @@ Creator : Christophe HERMANN (@chrishrmnn)
 		margin-bottom: 63px;
 	}
 
-	.experience li, .education li, .projects li, .certificates li {
+	.experience li, .education li, .certificates li {
 		margin-bottom: 63px;
 	}
 	
+	.projects li {
+		margin-bottom: 10px;
+	}
+
 	.experience li:last-child, .education li:last-child, .projects li:last-child, .certificates li:last-child {
 		margin-bottom: 21px;
 	}

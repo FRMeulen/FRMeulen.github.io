@@ -137,10 +137,14 @@
 		margin-bottom: 63px;
 	}
 	
-	.experience ul, .education ul, .projects ul, .certificates ul {
+	.experience ul, .education ul, .certificates ul {
 		margin-left: 60px;
 	}
 	
+	.projects ul {
+		margin-left: 40px;
+	}
+
 	section[role=main] h4 {
 		margin-bottom: 0px;
 	}
@@ -150,8 +154,12 @@
 		font-weight: normal;
 	}
 	
-	.experience li, .education li, .projects li, .certificates li {
+	.experience li, .education li, .certificates li {
 		margin-bottom: 63px;
+	}
+
+	.projects li {
+		margin-bottom: 10px;
 	}
 	
 	.experience li:last-child, .education li:last-child, .projects li:last-child, .certificates li:last-child {
