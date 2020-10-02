@@ -8,10 +8,9 @@
 <title>Falco van der Meulen - Computer Engineering Graduate</title>
 
 <!-- Fetch CSS -->
-<link rel="stylesheet" href="htmlFiles/reset.css">
-<link rel="stylesheet" media="screen and (max-width:480px)" href="htmlFiles/mobile.css">
-<link rel="stylesheet" media="screen and (min-width:481px)" href="htmlFiles/cv.css">
-<link rel="stylesheet" media="print" href="htmlFiles/print.css">
+<link rel="stylesheet" href="htmlFiles/css/reset.css">
+<link rel="stylesheet" media="screen and (max-width:480px)" href="htmlFiles/css/mobile.css">
+<link rel="stylesheet" media="screen and (min-width:481px)" href="htmlFiles/css/cv.css">
 </head>
 
 <body>
@@ -123,23 +122,33 @@
 			<h3>Certificates</h3>
 			<div class="grid_8">
 				<h4><strong>Certified Secure</strong></h4>
-				<span class="description">
-					<a href="res/certificates/Certified_Secure_Essential_Security.pdf">Essential Security</a>
-				</span>
-				<br>
-				<span class="description">
-					<a href="res/certificates/Certified_Secure_Safe_Internet.pdf">Safe Internet</a>
-				</span>
-				<br>
-				<span class="description">
-					<a href="res/certificates/Certified_Secure_Safe_Internet_Plus.pdf">Safe Internet Plus</a>
-				</span>
+				<button type="button" class="collapsible">Essential Security</button>
+				<div class="content">
+					<object type="application/pdf" data="res/certificates/Certified_Secure_Essential_Security.pdf" width="400" height="330">
+						alt : <a href="res/certificates/Certified_Secure_Essential_Security.pdf">PDF</a>
+					</object>
+				</div>
+				
+				<button type="button" class="collapsible">Safe Internet</button>
+				<div class="content">
+					<object type="application/pdf" data="res/certificates/Certified_Secure_Safe_Internet.pdf" width="400" height="330">
+						alt : <a href="res/certificates/Certified_Secure_Safe_Internet.pdf">PDF</a>
+					</object>
+				</div>
+
+				<button type="button" class="collapsible">Safe Internet Plus</button>
+				<div class="content">
+					<object type="application/pdf" data="res/certificates/Certified_Secure_Safe_Internet_Plus.pdf" width="400" height="330">
+						alt : <a href="res/certificates/Certified_Secure_Safe_Internet_Plus.pdf">PDF</a>
+					</object>
+				</div>
 			</div>
 			<div class="grid_8">
 				<h4><strong>Scrum</strong></h4>
-				<span class="description">
-					Professional Scrum Master I - In progress...
-				</span>
+				<button type="button" class="collapsible">Professional Scrum Master I</button>
+				<div class="content">
+					<p>In progress...</p>
+				</div>
 			</div>
 		</div>
 
@@ -367,4 +376,8 @@
 		</div>
 	</section>
 
-</body></html>
+<!-- Scripts -->
+<script type="text/javascript" src="htmlFiles/js/collapsible.js"></script>
+
+</body>
+</html>
