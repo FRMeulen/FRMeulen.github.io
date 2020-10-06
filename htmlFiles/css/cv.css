@@ -1,15 +1,12 @@
 /**********
-/* Grille - 960.gs
+/* Grids - 960.gs
 **********/
 .container_16 {
 	max-width: 960px;
 	width: 92%;
 	margin: 0 auto;
 }
-.grid_6,
-.grid_8,
-.grid_10,
-.grid_16 {
+.grid_6, .grid_8, .grid_10, .grid_16 {
 	display:inline;
 	float: left;
 	position: relative;
